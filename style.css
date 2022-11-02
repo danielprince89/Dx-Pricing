@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: 2px solid tomato;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1{
+    margin-bottom: 20px;
+}
+
+header h2{
+    margin-bottom: 20px;
+}
+
+.button-holder{
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 24%;
+    border-radius: 15px;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-items: flex-start;
+}
