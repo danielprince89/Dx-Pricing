@@ -5,7 +5,7 @@
 }
 
 header{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     text-align: center;
     padding: 25px;
     margin-bottom: 50px;
@@ -21,9 +21,10 @@ header h2{
 
 .button-holder{
     border: 2px solid black;
+    margin: 0 auto;
     padding: 5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 20%;
     border-radius: 15px;
     color: #D9D9D9;
@@ -31,7 +32,7 @@ header h2{
 
 .button-holder h3{
     color: black;
-    text-align: center;
+    text-align: center ;
 }
 
 .btn{
@@ -62,11 +63,13 @@ header h2{
 }
 
 .second-section-container{
-    border: 2px solid tomato;
+    border: 2px solid black;
     justify-content: center;
+    border-radius: 20px;
+    margin: 0 auto;
     padding: 30px;
     display: flex;
-    width: 100%;
+    width: 80%;
 }
 
 .content-holder{
@@ -75,12 +78,26 @@ header h2{
     border-right: 2px solid black;
 }
 
+.content-holder-last{
+    padding: 20px;
+    border: none;
+}
+
 .content-holder h4{
     margin: 13px 0;
     margin-left: 15px;
 }
 
+.content-holder-last h4{
+    margin: 13px 0 ;
+    margin-left: 15px;
+}
+
 .content-holder p{
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+.content-holder-last p{
     margin-bottom: 12px;
     margin-left: 15px;
 }
@@ -90,12 +107,25 @@ header h2{
     font-weight: bold;
     margin-left: 20px;
 }
+.content-holder-last h6{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
 
 .content-holder span{
     font-size: 40px;
 }
+.content-holder-last span{
+    font-size: 40px;
+}
 
 .content-holder h5{
+    font-weight: normal;
+    margin: 10px 0;
+    margin-left: 15px;
+}
+.content-holder-last h5{
     font-weight: normal;
     margin: 10px 0;
     margin-left: 15px;
