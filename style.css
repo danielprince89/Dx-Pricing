@@ -8,6 +8,7 @@ header{
     border: 2px solid tomato;
     text-align: center;
     padding: 25px;
+    margin-bottom: 50px;
 }
 
 header h1{
@@ -23,8 +24,14 @@ header h2{
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
-    width: 24%;
+    width: 20%;
     border-radius: 15px;
+    color: #D9D9D9;
+}
+
+.button-holder h3{
+    color: black;
+    text-align: center;
 }
 
 .btn{
@@ -32,4 +39,64 @@ header h2{
     border-radius: 10px;
     display: flex;
     justify-items: flex-start;
+}
+
+.btn-one{
+    padding: 7px 7px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background:#3D3737;
+    font-size: 12.5px;
+    font-weight: bold;
+    color: white;
+    width: 60%;
+}
+
+.btn-new{
+    padding: 7px 7px;
+    background: #3D3737;
+    font-size: 12.5px;
+    font-weight: bold;
+    color: white;
+    width: 60%;
+}
+
+.second-section-container{
+    border: 2px solid tomato;
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.content-holder{
+    /* border: 2px solid black; */
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+.content-holder h4{
+    margin: 13px 0;
+    margin-left: 15px;
+}
+
+.content-holder p{
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+
+.content-holder h6{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.content-holder span{
+    font-size: 40px;
+}
+
+.content-holder h5{
+    font-weight: normal;
+    margin: 10px 0;
+    margin-left: 15px;
 }
