@@ -20,14 +20,35 @@ header h2{
 }
 
 .button-holder{
-    border: 2px solid black;
+    /* border: 2px solid black;
     margin: 0 auto;
+    margin-top: 40px;
     padding: 5px;
     display: flex;
     justify-content: space-between;
     width: 20%;
     border-radius: 15px;
-    color: #D9D9D9;
+    background: #D9D9D9; */
+
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: center;
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    background: #D9D9D9;
+    /* background: gray; */
+    /* width: 250px; */
+    padding: 5px;
+}
+
+.btn1{
+    margin-right: 20px;
+    padding: 10px;
+    /* border: 2px solid blue; */
+    background: white;
+    border-radius: 7px;
 }
 
 .button-holder h3{
@@ -40,6 +61,7 @@ header h2{
     border-radius: 10px;
     display: flex;
     justify-items: flex-start;
+    background: #FFFFFF;
 }
 
 .btn-one{
